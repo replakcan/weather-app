@@ -1,4 +1,5 @@
 import './reset.css'
 import './styles.css'
+import getWeatherDataByLocation from './api/get-weather-data-by-location'
 
-console.log('selamin hello')
+getWeatherDataByLocation('istanbul')
